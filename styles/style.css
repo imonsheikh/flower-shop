@@ -78,7 +78,7 @@ header,
   vertical-align: middle;
 }
 
-/* feaured section   */
+/* featured section   */
 #featured {
   padding: 100px 0;
 }
@@ -119,6 +119,26 @@ header,
   line-height: 35px; /* 145.833% */
   text-decoration-line: underline;
 }
+#delivery_support .support {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-bottom: 100px;
+  height: 100px;
+  padding: 100px 0;
+  text-align: center;
+}
+#delivery_support .support {
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px; /* 145.833% */
+}
+
+/* Delivery and support  */
 
 /* hot deal section  */
 .hot_deal_main {
@@ -207,7 +227,8 @@ footer h2 {
   margin: 20px 0;
 }
 .footer .foot .des {
-  color: rgba(255, 255, 255, 0.40);
+  color: rgba(255, 255, 255, 0.4);
   text-align: center;
-  
 }
+
+
